@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Api/TodoApp.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Api/TodoApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Api/TodoApp.Api.csproj",
+        "projectName": "TodoApp.Api",
+        "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Api/TodoApp.Api.csproj",
+        "packagesPath": "/Users/bene/.nuget/packages/",
+        "outputPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/TodoApp.Application.csproj": {
+                "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/TodoApp.Application.csproj"
+              },
+              "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj": {
+                "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/TodoApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/TodoApp.Application.csproj",
+        "projectName": "TodoApp.Application",
+        "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/TodoApp.Application.csproj",
+        "packagesPath": "/Users/bene/.nuget/packages/",
+        "outputPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/TodoApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/TodoApp.Domain.csproj",
+        "projectName": "TodoApp.Domain",
+        "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/TodoApp.Domain.csproj",
+        "packagesPath": "/Users/bene/.nuget/packages/",
+        "outputPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj",
+        "projectName": "TodoApp.Infrastructure",
+        "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj",
+        "packagesPath": "/Users/bene/.nuget/packages/",
+        "outputPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/TodoApp.Domain.csproj": {
+                "projectPath": "/Users/bene/fbntech/csharp/TodoApp.Api/TodoApp.Domain/TodoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
